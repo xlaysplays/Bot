@@ -34,6 +34,6 @@ token = os.getenv('DISCORD_BOT_TOKEN')
 if not token:
     print("Error: DISCORD_BOT_TOKEN environment variable not set!")
     print("Using hardcoded token for now - please add to Secrets!")
-    token = "MTM4NTI4OTAwOTg0ODI1NDYwNg.GdyXNd.OI3dwYSbk-mYKwFXXVET0KjmZUCMdeshEQKklw"
+    token = "MTM4NTI4OTAwOTg0ODI1NDYwNg.Gn0wJX.J6qzufh55bAUg6vXszzVL93YFsg-3XnbOMmTNM"
 
 bot.run(token)
